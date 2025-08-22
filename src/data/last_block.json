@@ -1,0 +1,10 @@
+{
+  "mainnet": {
+    "lastBlock": 0,
+    "lastProcessedTx": ""
+  },
+  "devnet": {
+    "lastBlock": 0,
+    "lastProcessedTx": ""
+  }
+}
