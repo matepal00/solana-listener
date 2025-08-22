@@ -165,9 +165,9 @@ const main = async () => {
   let ws: WebSocket | null = null;
   let lastSeenSlot = 0;
 
-  // Ai helped mi with websocket reconnect handling: connecting, real time reconnecting, etc.
+  // Ai helped mi with websocket connection handling: connecting, real time reconnecting, etc.
   // Fallbacks flow and gaps handling and everything else is mine.
-  // I also used helius docs for thi integration https://www.helius.dev/docs/rpc/websocket/stream-pump-amm-data
+  // I also used helius docs for this integration https://www.helius.dev/docs/rpc/websocket/stream-pump-amm-data
 
   const subscribe = () => {
     if (!ws) return;
